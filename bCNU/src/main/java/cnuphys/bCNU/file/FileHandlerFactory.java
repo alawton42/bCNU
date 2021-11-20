@@ -25,7 +25,6 @@ public class FileHandlerFactory {
 		// note "getExtension" always returns lower case.
 		if (extension != null) {
 			if (extension.equals("xml")) {
-				return new XMLFileHandler();
 			}
 		}
 
