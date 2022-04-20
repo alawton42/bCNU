@@ -1279,7 +1279,7 @@ public class Ced extends BaseMDIApplication implements PropertyChangeListener, M
 	 * @param arg the command line arguments.
 	 */
 	public static void main(String[] arg) {
-		FastMath.setMathLib(FastMath.MathLib.SUPERFAST);
+		FastMath.setMathLib(FastMath.MathLib.FAST);
 		
 		String variation = System.getProperty("GEOVARIATION");
 		if (variation != null) {

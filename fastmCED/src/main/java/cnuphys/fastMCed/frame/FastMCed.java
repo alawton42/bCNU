@@ -567,7 +567,7 @@ public class FastMCed extends BaseMDIApplication
 	 * @param arg the command line arguments.
 	 */
 	public static void main(String[] arg) {
-		FastMath.setMathLib(FastMath.MathLib.SUPERFAST);
+		FastMath.setMathLib(FastMath.MathLib.FAST);
 
 		// read in userprefs
 		PropertiesManager.getInstance();
